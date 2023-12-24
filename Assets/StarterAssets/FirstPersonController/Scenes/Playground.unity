@@ -331,6 +331,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550505240}
   m_CullTransparentMesh: 1
+--- !u!1 &732482611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74,
+    type: 3}
+  m_PrefabInstance: {fileID: 60889539378096550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &856152694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1085,21 @@ MonoBehaviour:
   MaxHP: 100
   PlayerHP: 0
   healthDisplay: {fileID: 550505242}
+--- !u!114 &135756641613574981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93145343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e06fab92678fd42ad11b89cdeb8b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloonFab: {fileID: 7338493458882762083, guid: 9707890ac59669040b5ddb0eefb99d3a,
+    type: 3}
+  cam: {fileID: 732482611}
 --- !u!1 &2114283753834967212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,6 +1345,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 135756641613574980}
+    - targetCorrespondingSourceObject: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 135756641613574981}
   m_SourcePrefab: {fileID: 100100000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
 --- !u!1001 &7288094137546172433
 PrefabInstance:
@@ -1409,6 +1434,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5393215579111688471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8560040573837884321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2315150440460456760, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.573
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316037580005371729, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338493458882762083, guid: 9707890ac59669040b5ddb0eefb99d3a,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterBalloon
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6594002334554290696, guid: 9707890ac59669040b5ddb0eefb99d3a, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9707890ac59669040b5ddb0eefb99d3a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1420,3 +1519,4 @@ SceneRoots:
   - {fileID: 5393215579111688471}
   - {fileID: 856152698}
   - {fileID: 1442757540}
+  - {fileID: 8560040573837884321}

@@ -20,6 +20,8 @@ namespace StarterAssets
 		[Header("Mouse Cursor Settings")]
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
+		private TossBalloon toss;
+
 
 #if ENABLE_INPUT_SYSTEM
 		public void OnMove(InputValue value)
@@ -49,6 +51,13 @@ namespace StarterAssets
         {
             crouch = (value.isPressed);
         }
+
+		public void OnFire(InputValue value)
+		{
+			toss = GetComponent<TossBalloon>();
+			toss.Toss();
+
+		}
 #endif
 
 
